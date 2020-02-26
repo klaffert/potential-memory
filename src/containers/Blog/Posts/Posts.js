@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Post from '../../../components/Post/Post';
 import axios from '../../../axios';
 
-import './Posts.cstat-skip';
+import './Posts.css';
 class Posts extends Component {
   state = {
     posts: []
