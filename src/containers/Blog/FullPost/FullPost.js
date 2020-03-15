@@ -13,7 +13,9 @@ class FullPost extends Component {
     this.loadData();
   }
 
-  componentDidUpdate() {}
+  componentDidUpdate() {
+    this.loadData();
+  }
 
   loadData() {
     if (this.props.match.params.id) {
