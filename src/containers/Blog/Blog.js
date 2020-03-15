@@ -45,6 +45,7 @@ class Blog extends Component {
           {/* order is important */}
           <Route path="/new-post" exact component={NewPost} />
           <Route path="/posts" component={Posts} />
+          {/* Redirecting routes */}
           <Redirect from="/" to="/posts" />
           {/* <Route path="/" component={Posts} /> */}
         </Switch>
